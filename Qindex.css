@@ -98,16 +98,26 @@ border-radius: 2rem !Important;
 }
 
 .category-nav-panel, .category-nav-body {
-background-color:#FFEBEE !important;
+background-color:none !important;
 border-radius: 1rem !Important;
 }
 .category-nav-body a {
 color: #470023 !Important;
 }
 
-.form-control, .general-panel{
-border-radius: 30px !important;
+.category-nav-body li:hover {
+background-color: #FFEBEE !Important;
 }
+
+.product-gallery-primary {
+   border-radius: 1rem !Important;
+}
+
+.form-control, .general-panel{
+border-radius: 2rem !important;
+}
+
+.footer {padding-top: 0px !important;}
 
 #footer-bgtop {
     background-image: url(https://www.qimrb.edu.au/assets/footer-bg.svg);
