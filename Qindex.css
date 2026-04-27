@@ -1,5 +1,7 @@
 body,p ,h1,h2,h3,h4,h5,h6{
 font-family: "Rethink Sans", "Open Sans", sans-serif !important;
+font-variant-ligatures: no-contextual;
+font-feature-settings: "calt" 0, "liga" 0;    
 }
 .header-search .input-group {
     display: flex !important;
@@ -60,6 +62,11 @@ font-family: "Rethink Sans", "Open Sans", sans-serif !important;
     transform: translate(-50%, -50%) !important;
     visibility: visible !important;
 }
+
+.breadcrumb {
+border-radius: 2rem !important;
+}
+    
 .btn {
    border-radius: 40px !important;
 }
@@ -91,7 +98,7 @@ border-radius: 2rem !Important;
 }
 
 .category-nav-panel, .category-nav-body {
-background-color:purple !important;
+background-color:#FFEBEE !important;
 border-radius: 1rem !Important;
 }
 .category-nav-body a {
@@ -106,7 +113,7 @@ border-radius: 30px !important;
     background-image: url(https://www.qimrb.edu.au/assets/footer-bg.svg);
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 230px;
+    height: 150px;
     
     /* Full-width breakout logic */
     width: 100vw !important;
