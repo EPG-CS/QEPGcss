@@ -1,0 +1,133 @@
+body,p ,h1,h2,h3,h4,h5,h6{
+font-family: "Rethink Sans", "Open Sans", sans-serif !important;
+}
+.header-search .input-group {
+    display: flex !important;
+    position: relative !important;
+    background: transparent !important;
+    overflow: visible !important;
+}
+
+.header-search .form-control {
+    border-color: rgba(185,198,197,.6) !important;
+    border-width: 1px !important;
+    box-shadow: none !important;
+    border-radius: 2rem !important; 
+    height: 40px !important;
+    padding-right: 50px !important; 
+    z-index: 1 !important; 
+    position: relative !important;
+}
+
+.header-search .input-group-btn {
+    position: absolute !important;
+    right: 30px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 999 !important; 
+    margin: 0 !important;
+    display: block !important;
+}
+
+.header-search-btn {
+    color: transparent !important;
+    background-color: #e62620 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 32px !important;        
+    height: 32px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: transform 0.2s, background 0.2s;
+    cursor: pointer !important;
+}
+
+.header-search-btn:hover {
+    background-color: #c41e1a !important;
+    transform: scale(1.1);
+}
+
+.header-search-btn::before {
+    content: "\f002" !important;
+    font-family: "FontAwesome" !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    visibility: visible !important;
+}
+.btn {
+   border-radius: 40px !important;
+}
+.btn:hover { 
+background-color: rgb(113 0 43 / var(--tw-bg-opacity, 1)) !important;
+}
+
+.inline-block-grid .item-info {
+      text-align: center;
+  }
+  
+  .inline-block-grid .item-info .quickViewLink {
+      display: inline-block;
+      margin-top: 10px;
+  }
+
+  .list-view-active .item-info, 
+  .prod-cat-list:not(.inline-block-grid) .item-info {
+      text-align: left !important;
+  }
+
+  .prod-cat-list:not(.inline-block-grid) .prod-short {
+      text-align: left;
+  }
+
+.category-nav-heading {
+background-color: #FF3226 !important;
+border-radius: 2rem !Important;
+}
+
+.category-nav-panel, .category-nav-body {
+background-color:#FFEBEE !important;
+border-radius: 1rem !Important;
+}
+.category-nav-body a {
+color: #470023 !Important;
+}
+
+.form-control, .general-panel{
+border-radius: 30px !important;
+}
+
+#footer-bgtop {
+    background-image: url(https://www.qimrb.edu.au/assets/footer-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 230px;
+    
+    /* Full-width breakout logic */
+    width: 100vw !important;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+
+    padding: 0 !important;
+    border-bottom: 1px solid #71002b !important;
+}
+
+/* Remove the negative margins on the module so they don't fight the breakout */
+.footermodule {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Ensure the row doesn't clip the overflow */
+footer .row {
+    width: 100% !important;
+    height: auto; /* Changed from 230px to let content flow */
+}
