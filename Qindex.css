@@ -98,15 +98,25 @@ border-radius: 2rem !Important;
 }
 
 .category-nav-panel, .category-nav-body {
-background-color:none !important;
+background-color: none !important;
 border-radius: 1rem !Important;
 }
+
+.category-nav-body {
+background-color: none !important;
+}
+
 .category-nav-body a {
 color: #470023 !Important;
+}
+.category-nav-body .navbar-nav>li {
+border: none !important;
 }
 
 .category-nav-body li:hover {
 background-color: #FFEBEE !Important;
+    border-radius: 2rem !Important;
+    font-weight: 700 !important;
 }
 
 .product-gallery-primary {
