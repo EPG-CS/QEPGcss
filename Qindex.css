@@ -1,7 +1,7 @@
 body,p ,h1,h2,h3,h4,h5,h6{
 font-family: "Rethink Sans", "Open Sans", sans-serif !important;
-font-variant-ligatures: no-contextual;
-font-feature-settings: "calt" 0, "liga" 0;    
+font-variant-ligatures: no-contextual !important;
+font-feature-settings: "calt" 0, "liga" 0 !important;    
 }
 .header-search .input-group {
     display: flex !important;
