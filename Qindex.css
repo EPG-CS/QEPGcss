@@ -123,6 +123,7 @@ border-radius: 3rem !important;
 }
 
 .footer {padding-top: 0px !important;}
+.footer-bottom:{ padding: 20px 0 10px 0 !important;}
 
 #footer-bgtop {
     background-image: url(https://www.qimrb.edu.au/assets/footer-bg.svg);
